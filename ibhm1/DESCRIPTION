@@ -1,0 +1,16 @@
+Package: IBHM1
+Type: Package
+Title: Approximation using the IBHM method
+Version: 1.2-2
+Date: 2017-12-15
+Author: Pawel Zawistowski
+Maintainer: Pawel Zawistowski <dratewka@gmail.com>
+Description: Implementation of an incremental model construction method called IBHM which
+            stands for Incrementally Built Heterogeneous Model. The method is designed for solving
+            real number approximation problems in a highly automated fashion.
+License: GPL (>= 2)
+Depends: R(>= 2.15.2), compiler, DEoptim (>= 2.2-1), cmaes (>= 1.0-11), pso, foreach, mlr(>= 2.10), testthat
+Imports: methods (>= 3.0.1), Rcpp (>= 0.12.11)
+LinkingTo: Rcpp
+
+

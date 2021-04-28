@@ -1,0 +1,23 @@
+useDynLib(IBHM1)
+import(DEoptim)
+import(cmaes)
+import(methods, Rcpp)
+
+
+export(TrainIBHM1)
+export(ConfigureIBHM1)
+export(IterationSC1)
+export(ValidationSC1)
+
+
+export(predict.IBHM1)
+export(length.IBHM1)
+export(summary.IBHM1)
+export(print.summary.IBHM1)
+
+export(RcppScalEvaluator)
+
+
+export(makeRLearner.regr.IBHM1)
+export(trainLearner.regr.IBHM1)
+export(predictLearner.regr.IBHM1)
